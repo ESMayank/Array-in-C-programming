@@ -14,7 +14,7 @@ int main(){
     {
         a[i] = a[i + 1];
     }
-    for (int i = 0; i < size - 1; i++)
+    for (int i = 0; i < size - 2; i++)
     {
         printf("%d ",a[i]);
     }
